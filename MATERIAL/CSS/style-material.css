@@ -1,0 +1,77 @@
+.material-exemple{
+    /* height: ; */
+    display: block;
+    width: 100%;
+    background: scroll rgba(255, 255, 255, 0.719);
+}
+
+.encap-exe{
+    width: 1040px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.h3-exemple{
+    font-size: 1.2em;
+    color: #1D2B64;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    margin-left: 05px;
+    text-align: center;
+
+}
+.h1-exemple{
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1%;
+}
+.prod{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+}
+.img-prod{
+    width: 100%;
+    float: left;
+    margin: 2% 1% 2% 0;
+}
+.title-prod{
+    font-size: 2em;
+    color: #1D2B64;
+    font-weight: 500;
+    margin: 0 2%;
+}
+.img-prj{
+    width: 50%;
+    margin: 2%;
+    object-fit: cover;
+}
+.prod p{
+    margin: 1% 2%;
+}
+.exeplic{
+    float: right;
+    width: 40%;
+    /* position: r; */
+    padding-top: 100px;
+    display: flex;
+    
+
+}
+.exeplic p{
+    font-size: 1.5em;
+    color: #1D2B64;
+    float: right;
+    text-align: left;
+    /* position: absolute; */
+}
+.exeplic .fa{
+    font-size: 9em;
+    color: #1D2B64;
+    margin: 2% 15% 2% 0%;
+    float: left;
+}
+

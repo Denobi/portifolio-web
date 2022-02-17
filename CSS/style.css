@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    /* background-image: linear-gradient(#1D2B64, #F8CDDA); */
+    background-color: #1D2B64;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecalho{
+    background: url(https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat ;
+    background-size: cover;
+    height: 480px;
+    width: auto;
+    /* background-color: #F8CDDA; */
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: #000000ab;
+}
+.box .title{
+   font-size: 5em;
+   text-transform: uppercase;
+   font-weight: 600;
+   text-align: center;
+   padding: 20px 0;
+   color: rgba(255, 255, 255, 0.274);
+   padding: 10% 0 0 0;
+}
+.box h1:hover   {
+    letter-spacing: 20px;
+    transition: all 3s; 
+    color: #F8CDDA;
+}
+.box h1:not( :hover ){
+    transition: all 3s; 
+}
+.box .nav-li a:hover{
+    color: #887077;
+    font-weight: 500;
+}
+.box nav{
+    position: relative;
+    padding: 1% 0 0 36%;
+
+}
+.box .nav-li{
+    display: inline;
+}
+.nav-li a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+/*-- MAIN OU MEIO CONTEWUDOS --*/
+.conteudo{
+    display: flex;
+    /* height: 70%; */
+    width: 100%;
+    background: scroll rgba(255, 255, 255, 0.719);
+}
+.top-itens{
+    /* height: 50%; */
+    width: 1040px;
+    margin: 0 auto;
+    padding: 2em;
+   
+}
+.cap-text{
+    float: left;
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    padding-right: 20px;
+    width: auto;
+}
+.up-title{
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px 0 5px 0;
+    text-align: justify;
+    margin-left: 15px;
+    width: 40%;
+
+}
+.middle-title{
+    font-size: 3em;
+    color: #1D2B64;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 10px;
+    width: 40%;
+}
+.middle-title span{
+    font-size: 2em;
+    margin-left: -9px;
+    color: #111938;
+}
+.cap-text p{
+    width: 50%;
+    text-align: justify;
+    font-size: 20px;
+}
+.top-itens img{
+    width: 50%;
+    float: right;
+    margin: -30% 0 0 0%;
+    /* padding-left: 20px; */
+    border-radius: 30px;
+    box-shadow: 10px 5px 50px black;
+}
+/*-- RODAPE --*/
+.foot{
+    width: 100%;
+    height: 200px;
+    background: rgb(29,43,100);
+    display: flex;
+    justify-content: space-around;
+}
+.foot .concept{
+    width: 30%;
+    height: 90%;
+    margin: 5% 2%;
+}
+.foot .rap{
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.719);
+    margin: 1% 0% 1% 5%;
+    text-align: right;
+}
+.concept .links{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    margin: 0.5% 0 0.5% 5% ;
+    text-transform: uppercase;
+    text-align: right;
+}
+.foot .social{
+    /* padding-top: 10px; */
+    vertical-align: middle;
+    width: 15%;
+    margin:5% 10% ;
+    height: 90%;
+}
+.foot .social .rap{
+    text-align: left;
+}
+.social-icons i{
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.719);
+    margin: 3% 2%;
+}
+.copy{
+    margin: 5% 2%;
+}
+.copy .rap{
+    text-align: left;
+}
+.bussines{
+    font-size: 2rem;
+    margin: 1% 0% 1% 5%;
+    color: #fff;
+    font-weight: 600;
+}
+.copy p{
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 1% 0% 1% 5%;
+    text-align: justify;
+}
